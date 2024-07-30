@@ -26,7 +26,7 @@ function startStop() {
         timer = setInterval(() => {
             elapsedTime = Date.now() - startTime;
             updateDisplay();
-        }, 10);
+        }, 1000);
         running = true;
         startStopButton.textContent = 'Stop';
     }
